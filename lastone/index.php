@@ -34,8 +34,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['install'])) {
 
     set_time_limit(300);
 
-    $repoOwner      = 'mayerbalintdev';
-    $repoName       = 'GYM-ONE';
+    $repoOwner      = 'Ganzosupremo';  // Sankris Gymnastics fork
+    $repoName       = 'GYM-One';
     $parentDir      = dirname(__DIR__);
     $tempZipFile    = TEMP_DIR . 'GYM-One-main.zip';
     $outputDir      = TEMP_DIR . 'gym-one-latest';
